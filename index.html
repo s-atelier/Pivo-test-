@@ -13,7 +13,7 @@
   };
 
   const VAPID_KEY = "BCeYv4MVtWWYk6w2wEhEhYn8dCZ_rSwnc7Sc7BEG-xkg9lLlccSoJpTGeQEukNx2Rn2GKro8L3gdLujwh2NL1SM";
-  const GAS_URL   = "ĐẶT_URL_GOOGLE_APPS_SCRIPT_CỦA_BẠN_VÀO_ĐÂY"; // ← thay bằng URL GAS của bạn
+  const GAS_URL   = "https://script.google.com/macros/s/AKfycbzYsOYomGeaUVSTQKd8uI6GVguVQilhj80a87utC7c2_kAxV4NUtZwic4Ej8dUBOIcabA/exec"; // ← thay bằng URL GAS của bạn
 
   const app       = initializeApp(firebaseConfig);
   const messaging = getMessaging(app);
@@ -1240,7 +1240,7 @@
 
         const APP_CONFIG = {
             // Google Sheets Web App URL (bắt buộc để đồng bộ dữ liệu)
-            sheetUrl: "https://script.google.com/macros/s/AKfycbxG7ni9nug5cMbF79LbbH3KRMFdzi1Xjv5yMniisZVIWxwp95HcZeML3QQBGdxPqoqWvA/exec",          // Ví dụ: "https://script.google.com/macros/s/AKfy.../exec"
+            sheetUrl: "https://script.google.com/macros/s/AKfycbzYsOYomGeaUVSTQKd8uI6GVguVQilhj80a87utC7c2_kAxV4NUtZwic4Ej8dUBOIcabA/exec",          // Ví dụ: "https://script.google.com/macros/s/AKfy.../exec"
 
             // Telegram Bot Token & Chat ID (để nhận thông báo tự động)
             telegramToken:  "8602724932:AAFDps6gbW0KuOzv2ZxiWAZ8UXrmi9oWzLI",    // Ví dụ: "123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ"
